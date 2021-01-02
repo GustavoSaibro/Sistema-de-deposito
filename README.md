@@ -23,5 +23,4 @@ Aqui exemplificarei utilizando os metodos  da classe CedulaController, que faz t
   cedulaController.saque(500);
 
 ```
-Neste exemplo, instanciei um controlador da cedula e fiz um deposito de 10 notas de cem reais. E apoós ter feito este deposito, fiz um saque de 500 reais. Para fazer um deposito é necessário informar o valor da nota a ser depositado e a quantidade de notas que serão depositadas. Para fazer um saque, basta informar a quantia a ser sacada. 
-
+Neste exemplo, instanciei um controlador da cedula e fiz um deposito de 10 notas de cem reais. E apoós ter feito este deposito, fiz um saque de 500 reais. Para fazer um deposito é necessário informar o valor da nota a ser depositado e a quantidade de notas que serão depositadas. Para fazer um saque, basta informar a quantia a ser sacada. Os valores das notas são passados por meio de um Enum criado. Existem 4: CEM, CINQUENTA, VINTE, DEZ. Basta passar ValorNota.{valor}.
